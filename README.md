@@ -1,33 +1,32 @@
 # Github搭建个人主页介绍
 
 ## 注册github账号
-在https://github.com/ 注册一个账号，假设用户名是stamax360. ***注意：*** 用户名是唯一并且不可以修改，个人主页网址是https://用户名.github.io/ 。 
+在https://github.com/ 注册一个账号，假设用户名是fred. ***注意：*** 用户名是唯一并且不可以修改，个人主页网址是https://用户名.github.io/ 。 
 
 ## Fork 并且修改名字
 
-- 输入网址 https://github.com/xuejunma/xuejunma.github.io/ 并且点击 **Fork**. xuejunma.github.io仓库便拷贝到您的仓库中。
+- 输入网址 https://github.com/fred/fred.github.io/ 并且点击 **Fork**. fred.github.io仓库便拷贝到您的仓库中。
 ***注意：*** 只有Fork到自己的仓库下才能修改内容。 Fork需要一些时间。另外，修改内容不会立刻出现在个人主页上，时间由网速决定。
 
-- 点击 **setting**  将 ***xuejunma***.github.io 修改为自己用户名，如 ***stamax360***.github.io. 
+- 点击 **setting**  将 ***fodezhang***.github.io 修改为自己用户名，如 ***stamax360***.github.io. 
 
 
 
 ##  修改菜单栏 主页、简历、科研的链接
 
-* 打开 includes/header.html并且点击 🖊   进入编辑，将全部***xuejunma***修改为自己的用户名，如 ***stamax360***，***注意*** 修改一定要点击🖊   进入编辑中，否则无法修改。
+* 打开 includes/header.html并且点击 🖊   进入编辑，将全部***fodezhang***修改为自己的用户名，如 ***stamax360***，***注意*** 修改一定要点击🖊   进入编辑中，否则无法修改。
 * 保存。 网页拉到最后，点击***Commit changes***保存。 ***注意***  若不保存，意味着没有修改。
 
 ```php 
-<li class="nav-link"><a href="{{ site.baseurl }}/" class="logo"><strong>主页</strong></a>
-<li class="nav-link"><a href="https://stamax360.github.io/cv"><strong>简历</strong></a>
-<li class="nav-link"><a href="https://xuejunma.github.io/research"><strong>科研</strong></a>
-<li class="nav-link"><a href="https://xuejunma.github.io/teaching"><strong>教学</strong></a>
-<li class="nav-link"><a href="https://xuejunma.github.io/yanxitang"><strong>言蹊堂</strong></a>
-<li class="nav-link"><a href="https://xuejunma.github.io/englishcv"><strong>ENGLISHVERSION</strong></a>
+<li class="nav-link"><a href="{{ site.baseurl }}/" class="logo"><strong>Homepage</strong></a>
+<li class="nav-link"><a href="https://fodezhang.github.io/cv"><strong>CV</strong></a>
+<li class="nav-link"><a href="https://fodezhang.github.io/research"><strong>Research</strong></a>
+<li class="nav-link"><a href="https://fodezhang.github.io/teaching"><strong>Teaching</strong></a>
+<li class="nav-link"><a href="https://fodezhang.github.io/chinesecv"><strong>中文介绍</strong></a>
 ```
 
 ## 修改全局配置
-打开config.yml，将 ***马学俊，邮箱*** 等信息修改为自己的信息。如将 ***马学俊*** 修改自己的名字，如一诺9257.
+打开config.yml，将 ***Fode Zhang，email*** 等信息修改为自己的信息。
 
 ```php
 # Site settings
@@ -38,22 +37,21 @@ title: 一诺9257
 ```
 
 ## 修改页面内容
-* index.html 修改 ***主页***
-* cv.html 修改 ***简历***
-* research.html 修改 ***科研***
-* teaching.html 修改 ***教学***
-* yanxitang.html 修改 ***言蹊堂***
-* englishcv.html 修改 ***ENGLISHVERSION***
+* index.html 修改 ***Homepage***
+* cv.html 修改 ***CV***
+* research.html 修改 ***Research***
+* teaching.html 修改 ***Teaching***
+* englishcv.html 修改 ***中文介绍***
 
 ### 以index.html为例说明。
 
-* 将所有***马学俊***的信息全部修改为自己的信息。
-* 图片修改，在仓库界面点击***profilepicturenew.jpg***直接删掉；再点击***Uploads files*** 上传一个命名为***profilepicturenew.jpg***图片。 ***注意*** 图片的名字一定是profilepicturenew.jpg，如果不是，将下面命令的图片名字修改为自己的图片名字。
+* 将所有***Fode Zhang***的信息全部修改为自己的信息。
+* 图片修改，在仓库界面点击***fode.jpg***直接删掉；再点击***Uploads files*** 上传一个命名为***profilepicture.jpg***图片。 ***注意*** 图片的名字一定是profilepicturenew.jpg，如果不是，将下面命令的图片名字修改为自己的图片名字。
 
 ```php   
 ---
 layout: page
-title: <font face="Kaiti"> 马学俊 </font>
+title: <font face="Kaiti"> Fode Zhang </font>
 ---
 
 <img src="profilepicturenew.jpg" alt="stmax pic" style="width:200px;height:220px;" title="stamax "; algin="middle">
@@ -62,11 +60,11 @@ title: <font face="Kaiti"> 马学俊 </font>
 <br>
 统计系
 <br>
-数学科学学院 
+T统计研究中心
 <br>
-苏州大学
+西南财经大学
 <br>
-邮箱: xuejunma@suda.edu.cn
+邮箱: fredzh@swufe.edu.cn
 
 ```
 
