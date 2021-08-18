@@ -32,7 +32,7 @@
 # Site settings
 # 站点名字，也就是html的title 会显示在浏览器标签上。
 title: 一诺9257
-#name: 马学俊
+#name: Fodezhang
 # 站点副标题，会显示在首页上，可以不填。
 ```
 
