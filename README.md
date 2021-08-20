@@ -5,7 +5,7 @@
 
 ## Fork 并且修改名字
 
-- 输入网址 https://github.com/fred/fred.github.io/ 并且点击 **Fork**. fred.github.io仓库便拷贝到您的仓库中。
+- 输入网址 https://github.com/fodezhang/fodezhang.github.io/ 并且点击 **Fork**. fodezhang.github.io仓库便拷贝到您的仓库中。
 ***注意：*** 只有Fork到自己的仓库下才能修改内容。 Fork需要一些时间。另外，修改内容不会立刻出现在个人主页上，时间由网速决定。
 
 - 点击 **setting**  将 ***fodezhang***.github.io 修改为自己用户名，如 ***stamax360***.github.io. 
